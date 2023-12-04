@@ -1,6 +1,7 @@
 <script>
 export default {
   name: 'UserForm',
+  emits: ['formSubmitted'],
   data() {
     return {
       formData: {
